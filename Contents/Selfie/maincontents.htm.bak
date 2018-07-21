@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html" charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=10" />
+
+<link rel="stylesheet" type="text/css" href="PhotoPrinting.css" />
+
+<!-- 기본으로 포함되어야 하는 js -->
+<script language="JavaScript" type="text/javascript"
+	src="Scripts/FlashPlayer.js"></script>
+<script language="JavaScript" type="text/javascript"
+	src="Scripts/BaseCommand.js"></script>
+<script language="JavaScript" type="text/javascript"
+	src="Scripts/BaseEvent.js"></script>
+<script language="JavaScript" type="text/javascript"
+	src="Scripts/LogConsole.js"></script>
+
+<!-- 추가적으로 포함되는 js -->
+<script language="JavaScript" type="text/javascript"
+	src="PhotoPrinting.js"></script>
+
+</head>
+
+<body onload="JSMain()" onbeforeunload="JSUnload()" ondragstart="return false;" ondrop="return false;" style="-ms-user-select:none; margin: 0; padding: 0;" oncontextmenu="return false;">
+	<div class="home" >
+		<img src="Image/Home_Button.png" onclick="Home()">
+	</div>
+
+	<div class="pannel">
+		<img src="Image/Pannel-outline.png">
+		<canvas id="camImage" width="900" height="610"></canvas>
+		<img class="capture" id="capture" src="Image/start_btn_nor.png"	onclick="capture()">
+		<img class="number_img" id="number_img"style="display: none" src="Image/3.png">
+		<img class="email"	id="email" style="display: none" src="Image/btn_nor_email_01.png" onclick="email()">
+		<img class="retake" id="retake" style="display: none" src="Image/btn_nor_retake_01.png" onclick="retake()">
+	</div>
+
+	<div id="keyboard" class="keyboard" style="display: none">
+
+		<div class="top">
+			<font class="address" size="6px"><a id="address"></a></font>
+			<img src="Image/keyboard/send.png" onclick="send('1')"> &nbsp;
+			<img src="Image/keyboard/cancel.png" onclick="send('2')">
+		</div>
+		<div class="wrap" >
+			<div class="line01">
+				<img src="Image/keyboard/1.png" onclick="keyboard('1')"> <img
+					src="Image/keyboard/2.png" onclick="keyboard('2')"> <img
+					src="Image/keyboard/3.png" onclick="keyboard('3')"> <img
+					src="Image/keyboard/4.png" onclick="keyboard('4')"> <img
+					src="Image/keyboard/5.png" onclick="keyboard('5')"> <img
+					src="Image/keyboard/6.png" onclick="keyboard('6')"> <img
+					src="Image/keyboard/7.png" onclick="keyboard('7')"> <img
+					src="Image/keyboard/8.png" onclick="keyboard('8')"> <img
+					src="Image/keyboard/9.png" onclick="keyboard('9')"> <img
+					src="Image/keyboard/0.png" onclick="keyboard('0')"> <img
+					src="Image/keyboard/delete.png" onclick="keyboard('bs')">
+			</div>
+
+			<div class="line02">
+				<img src="Image/keyboard/q.png" onclick="keyboard('q')"> <img
+					src="Image/keyboard/w.png" onclick="keyboard('w')"> <img
+					src="Image/keyboard/e.png" onclick="keyboard('e')"> <img
+					src="Image/keyboard/r.png" onclick="keyboard('r')"> <img
+					src="Image/keyboard/t.png" onclick="keyboard('t')"> <img
+					src="Image/keyboard/y.png" onclick="keyboard('y')"> <img
+					src="Image/keyboard/u.png" onclick="keyboard('u')"> <img
+					src="Image/keyboard/i.png" onclick="keyboard('i')"> <img
+					src="Image/keyboard/o.png" onclick="keyboard('o')"> <img
+					src="Image/keyboard/p.png" onclick="keyboard('p')">
+			</div>
+
+			<div class="enter" >
+				<img src="Image/keyboard/enter.png" onclick="send('1')">
+			</div>
+
+			<div class="line03">
+				<img src="Image/keyboard/a.png" onclick="keyboard('a')"> <img
+					src="Image/keyboard/s.png" onclick="keyboard('s')"> <img
+					src="Image/keyboard/d.png" onclick="keyboard('d')"> <img
+					src="Image/keyboard/f.png" onclick="keyboard('f')"> <img
+					src="Image/keyboard/g.png" onclick="keyboard('g')"> <img
+					src="Image/keyboard/h.png" onclick="keyboard('h')"> <img
+					src="Image/keyboard/j.png" onclick="keyboard('j')"> <img
+					src="Image/keyboard/k.png" onclick="keyboard('k')"> <img
+					src="Image/keyboard/l.png" onclick="keyboard('l')">
+			</div>
+
+			<div class="line04">
+				<img src="Image/keyboard/z.png" onclick="keyboard('z')"> <img
+					src="Image/keyboard/x.png" onclick="keyboard('x')"> <img
+					src="Image/keyboard/c.png" onclick="keyboard('c')"> <img
+					src="Image/keyboard/v.png" onclick="keyboard('v')"> <img
+					src="Image/keyboard/b.png" onclick="keyboard('b')"> <img
+					src="Image/keyboard/n.png" onclick="keyboard('n')"> <img
+					src="Image/keyboard/m.png" onclick="keyboard('m')"> <img
+					src="Image/keyboard/..png" onclick="keyboard('.')"> <img
+					src="Image/keyboard/exclamation.png" onclick="keyboard('!')">
+				<img src="Image/keyboard/question.png" onclick="keyboard('?')">
+			</div>
+
+			<div class="line05">
+				<img src="Image/keyboard/-.png" onclick="keyboard('-')"> <img
+					src="Image/keyboard/_.png" onclick="keyboard('_')"> <img
+					src="Image/keyboard/spacebar.png" onclick="keyboard(' ')"> <img
+					src="Image/keyboard/@.png" onclick="keyboard('@')"> <img
+					src="Image/keyboard/gmail.png" onclick="keyboard('gmail.com')">
+				<img src="Image/keyboard/com.png" onclick="keyboard('.com')">
+			</div>
+		</div>
+	</div>
+</body>
+</html>

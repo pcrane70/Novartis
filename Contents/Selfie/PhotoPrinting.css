@@ -1,0 +1,158 @@
+body {
+	
+	background-image: url("Image/photo_bg_new.png");
+	background-repeat: no-repeat;
+	overflow : hidden;
+}
+
+   footer{
+       /* position:absolute;*/
+        left:0;
+        bottom:0;
+        height:90px;
+        width:100%;
+      }
+      
+.home{
+	text-align: right;
+	height: 100px;
+	padding: 25px;	
+}
+
+canvas  {
+	position: absolute;
+	margin-top: 120px;
+	margin-left: -870px;
+}
+.settingsection2{float:none;}
+
+/*.pannel {
+*/	/*margin-top: 280px;*/
+/*	width:1280px;
+	padding:305px 0 325px 50px;
+	text-align: center;
+	background-image: url("Image/photo_bg_new.png");
+	background-repeat: no-repeat;
+	max-height: 420px;
+*/
+/*}*/
+.pannel {
+     margin-top: -30px; 
+    width: 1080px;
+    padding: 356px 0 772px 50px;
+    text-align: center;
+    background-image: url(Image/photo_bg_new.png);
+    background-repeat: no-repeat;
+    max-height: 485px;
+}
+
+
+}
+#panel2{
+	
+	width: 1080px;
+    height: 1049px;
+    background: #05152a;
+    position:absolute;
+    top: 315px;
+    font-size: 42px;
+    color:white;
+}
+.pannel .center{position:relative;left:-40px;top:100px;}
+.email {
+	position: absolute;
+	margin-top: 130px;
+	margin-left: -832px;
+}
+
+.retake {
+	position: absolute;
+	margin-top: 130px;
+	margin-left: -457px;
+}
+
+.capture {
+	position: absolute;
+	margin-top: 120px;
+	margin-left: -870px;
+}
+
+.number_img {
+	position: absolute;
+	margin-top: 250px;
+	margin-left: -557px;
+}
+
+.keyboard {	
+	text-align: center;
+	background-image: url('Image/keyboard/keyboard_bg.png');
+	background-repeat: no-repeat;
+	width: 1080px;
+	margin-top: -400px;
+	position: absolute;
+}
+
+.top{
+	margin-right: 10px;
+	margin-top: 5px;
+	padding-top: 15px;
+	text-align: right;
+}
+
+.address {
+	margin-left: 100px;
+	margin-top: 30px;
+	position: absolute;
+}
+
+.wrap {
+	margin-top: 30px;
+}
+
+.line01 {
+	
+}
+
+.line02 {
+	position:absolute;
+	margin-left: 60px;
+}
+
+.line03 {
+	margin-right: 80px;
+	margin-top: -95px;
+}
+
+.line04 {
+	margin-right: 40px;
+}
+
+.line05 {
+	
+}
+
+.enter {
+	margin-left: 880px;
+	margin-top: 3px;
+}
+
+.carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        width: 70%;
+        margin: auto;
+    }
+    .carousel img {
+          width:100% !important;
+          min-width:100 !important;
+          height: auto;
+      }
+
+       .explore{
+       font-size: 32px;
+    font-family: Bukra-Regular;
+    padding-top: 20px;
+    background-color: #f8f8f8;
+    color: darkgrey;
+    text-align: center;
+    padding-bottom:14px;
+    }

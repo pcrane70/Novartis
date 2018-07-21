@@ -1,0 +1,134 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url("Image/photo_bg.jpg");
+	background-repeat: no-repeat;
+	overflow : hidden;
+}
+
+/* 폰트 */
+@font-face {
+    font-family: 'GenShinGothic-P-Regular';
+    src: url('../../../Font/GenShinGothic-P-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'NanumMyeongjoBold';
+    src: url('../../../Font/NanumMyeongjoBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'HeitiTC-Light';
+    src: url('../../../Font/HeitiTC-Light.woff') format('woff');
+}
+
+.home{
+	text-align: right;
+	height: 100px;
+	padding: 25px;	
+}
+
+canvas  {
+	position: absolute;
+	margin-top: 30px;
+	margin-left: -943px;
+}
+
+.pannel {
+	margin-top: 300px;
+	text-align: center;
+}
+
+.email {
+	position: absolute;
+	margin-top: 30px;
+	margin-left: -847px;
+}
+
+.retake {
+	position: absolute;
+	margin-top: 30px;
+	margin-left: -447px;
+}
+
+.capture {
+	position: absolute;
+	margin-top: 23px;
+	margin-left: -947px;
+}
+
+.number_img {
+	position: absolute;
+	margin-top: 170px;
+	margin-left: -577px;
+}
+
+.keyboard {	
+	text-align: center;
+	background-image: url('Image/keyboard/keyboard_bg.png');
+	background-repeat: no-repeat;
+	width: 1080px;
+	margin-top: -500px;
+	position: absolute;
+}
+
+.top{
+	margin-right: 10px;
+	margin-top: 5px;
+	padding-top: 15px;
+	text-align: right;
+}
+
+.address {
+	margin-left: 100px;
+	margin-top: 30px;
+	position: absolute;
+}
+
+.wrap {
+	margin-top: 30px;
+}
+
+.line01 {
+	
+}
+
+.line02 {
+	position:absolute;
+	margin-left: 60px;
+}
+
+.line03 {
+	margin-right: 80px;
+	margin-top: -95px;
+}
+
+.line04 {
+	margin-right: 40px;
+}
+
+.line05 {
+	
+}
+
+.enter {
+	margin-left: 880px;
+	margin-top: 3px;
+}
+
+/* 텍스트 슬라이드 */
+#news {
+	color : white;
+	position : absolute;
+	top : 1284px;
+	height : 100px;
+	width: auto;
+	transform : translateX(1080px);
+	white-space:nowrap; 
+	font-size : 60px;
+}
+
+@keyframes text_slide {
+	0% {transform : translateX(1080px);}
+    100% {transform : translateX(-100%);}
+}

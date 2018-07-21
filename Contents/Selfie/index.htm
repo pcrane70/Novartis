@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html" charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=10" />
+
+
+<!--<script language="JavaScript" type="text/javascript"
+	src="Scripts/FlashPlayer.js"></script>-->
+<script language="JavaScript" type="text/javascript"
+	src="../../Scripts/BaseCommand.js"></script>
+<script language="JavaScript" type="text/javascript"
+	src="../../Scripts/BaseEvent.js"></script>
+<script language="JavaScript" type="text/javascript"
+	src="../../Scripts/LogConsole.js"></script>
+
+
+<script language="JavaScript" type="text/javascript"
+	src="../../maincontents.js"></script>
+ <script src="../../jquery/jquery-3.2.1.min.js"></script>
+ <script src="../../boots/js/bootstrap.min.js"></script>
+  <script src="../../Scripts/lang.js"></script>
+  <link rel="stylesheet" href="../../boots/css/bootstrap.min.css">
+
+<script type="text/javascript">
+
+</script>
+
+<style>
+     html{
+        position: relative;
+        min-height: 83.8%;
+      }
+      body{
+        margin: 0 0 100px;
+        line-height: 0.428571;
+      }
+       .body1{
+        height:1246px;
+      }
+      footer{
+       /* position:absolute;*/
+        left:0;
+        bottom:0;
+        height:90px;
+        width:100%;
+      }
+    .container{
+      padding-top:163px;
+      padding-bottom:10px;
+      width:800px;
+    }
+    .row{
+      padding-top:0px;
+      padding-bottom:50px;
+      margin-left: 47px;
+    }
+   
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        width: 70%;
+        margin: auto;
+    }
+    .carousel img {
+          width:100% !important;
+          min-width:100 !important;
+          height: auto;
+      }
+      .fixed-height{
+        max-height: 400px;
+      }
+      .jumbotron{
+        color:#5c5c5c;
+        background-color: #f8f8f8;
+            line-height: 18px;
+            padding-top: 41px;
+            padding-bottom: 41px;
+      }
+      .jumbotron p {
+          margin-bottom: 15px;
+          font-size: 36px;
+          font-weight: 700;
+          font-family: Bukra-Regular;
+          color: darkslategray;
+      }
+        .img-responsive{
+        position: relative;
+        z-index: 99;
+        margin-top:-34px;
+        margin-left:41px;
+      }
+      .img-home {
+          position: relative;
+          z-index: 99;
+          margin-top: 28px;
+          height: 66px;
+          /* cursor: pointer; cursor: hand;*/
+    }
+      .navigate{
+        font-size: 25px;
+      }
+      .navbar{
+        margin-top:-30px;
+            margin-bottom: 0px;
+      }
+      .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+    }
+      .navbar .navbar1 {
+        text-align: center;
+        font-size:10px;
+    }
+      span{
+        width:82px;
+      }
+
+     .btn-warning1.btn-warning1:not( :hover )
+      {
+          color: #fff;
+          background-color:#B23AEE;
+          border-color:#9932CD ;
+      }
+
+   .btn-warning1:hover{
+      color: #fff;
+      background-color:#9932CC;
+    }
+    .icon1{
+      padding-top: 40px;
+      padding-bottom: 40px;
+      line-height: 25px;
+          margin-bottom: -4.6px;
+    }
+    .bmg
+    {
+        background-image: url('images/bg1.jpg');
+          background-repeat: no-repeat;
+          background-size:175%;
+          height:1245px;
+    }
+    span.glyphicon {
+        font-size: 3em;
+    }
+    .glyphicon{
+      line-height:1.3;
+      width:80px;
+      height:80px;
+    }
+    .txt{
+
+          font-size: 19px;
+        font-family: Bukra-Regular;
+
+    display: inline-block;
+      transform: scale(1.5, 1.5);
+      -webkit-transform: scale(1.5, 1.5); /* Safari and Chrome */
+      -moz-transform: scale(1.5, 1.5); /* Firefox */
+      -ms-transform: scale(1.5, 1.5); /* IE 9+ */
+      -o-transform: scale(1.5, 1.5); /* Opera */
+  
+    }
+    .flag{
+      height:37px;
+      width:37px;
+    }
+    .btn-group-lg>.btn, .btn-lg {
+        padding: 35px 54px;
+    }
+    .alert {
+        text-align: center;
+        font-size: 30px;
+        font-family: Bukra-Regular;
+        padding: 28px;
+        width: 695px;
+        margin-left: 16px;
+        margin-bottom: 0px;
+        font-stretch: ultra-expanded;
+    }
+
+    .nav>li>a {
+          padding: 6px 42px;
+    }
+
+    /*.header-txt, .header-right{
+      font-size:30px;
+      display: inline-block;
+          transform: scale(1.1, 1.1);
+          -webkit-transform: scale(1.1, 1.1);  Safari and Chrome 
+          -moz-transform: scale(1.1, 1.1); /* Firefox 
+          -ms-transform: scale(1.1, 1.1); /* IE 9+ 
+          -o-transform: scale(1.1, 1.1); /* Opera */
+    /*}*//***//*/*/
+   
+    .explore{
+       font-size: 32px;
+    font-family: Bukra-Regular;
+    padding-top: 20px;
+    background-color: #f8f8f8;
+    color: darkgrey;
+    text-align: center;
+    padding-bottom:14px;
+    }
+
+    #content_term{
+      margin-left:76px;
+    }
+</style>
+
+
+<link href="../../css/Setting.css" rel="stylesheet" type="text/css" />
+<link href="../../css/Language.css" rel="stylesheet" type="text/css" />
+<link href="../../css/Main.css" rel="stylesheet" type="text/css" />
+
+<script language="JavaScript" type="text/javascript" src="../../Scripts/FlashPlayer.js"></script>
+<script language="JavaScript" type="text/javascript" src="RobotAvatar.js"></script>
+	<script type="text/javascript">
+
+			function Setting() {
+					location.href = "../../Config/Config.htm";
+				}
+
+	</script>
+</head>
+<body>
+
+  	<div class="jumbotron text-center">
+      <p id="currentDate"></p><br>
+      <span class="col-sm-3">
+         <img src="../../images/logo_riyad.png" class="img-responsive" alt="Responsive image">
+       <p id="content_term"> محطة A</p>
+      </span>
+      <span class="col-sm-6 text-center">
+          <p  id="content_air">Robot Avatar</p>
+      </span>
+      
+        <img src="../../images/home-icon.png" onclick="GoHome()"  class="img-home" alt="Responsive image">
+    </div>
+
+    <nav class = "navbar navbar-default" role = "navigation">
+       <div class="navbar1">
+          <ul class = "nav navbar-nav">
+             <li class = "active">
+              <a id="change-ar" href = "#">
+                <img class="flag" src="../../images/flags/arabia.png">
+              </a>
+             </li>
+             <li id="change-us" value="de"><a href="#"><img class="flag" src="../../images/flags/us.png"></a></li>
+             <li id="change-fr" ><a href = "#"><img class="flag" src="../../images/flags/france.png"></a></li>
+             <li id="change-sp" ><a href = "#"><img class="flag" src="../../images/flags/spain.png"></a></li>
+             <li id="change-ch" ><a href = "#"><img class="flag" src="../../images/flags/china.png"></a></li>
+             <li id="change-ko" ><a href = "#"><img class="flag" src="../../images/flags/korea.png"></a></li>
+          </ul>
+       </div>
+    </nav>
+
+    <div class="body1">
+      <div class="contents" style="">
+			<script language="JavaScript" type="text/javascript">
+				AC_FL_RunContent(
+					'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0',
+					'width', '100%',
+					'height', '650',		// <-- FURO-S
+					'src', 'RobotAvatar',	// <-- 여기에 Flash 파일명을 적어주세요.
+					'quality', 'high',
+					'pluginspage', 'http://www.adobe.com/go/getflashplayer_kr',
+					'align', 'middle',
+					'play', 'true',
+					'loop', 'false',
+					'scale', 'showall',
+					'wmode', 'transparent',
+					'devicefont', 'false',
+					'id', 'App',
+					'bgcolor', '#ffffff',
+					'name', 'App',
+					'menu', 'false',
+					'allowFullScreen', 'false',
+					'allowScriptAccess','always',
+					'movie', 'RobotAvatar',	// <-- 여기에 Flash 파일명을 적어주세요.
+					'salign', 'top'
+					); //end AC code
+				</script>
+			</div>
+
+    </div>
+
+
+<div  id="content_explore" class="explore">استكشاف تنازلات لدينا</div>
+<footer>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+
+          <div class="item active">
+            <img class="fixed-height" src="../../images/1.jpg" alt="Chania" width="460" height="345">
+            <div class="carousel-caption">
+              <h3></h3>
+              <p></p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="fixed-height" src="../../images/2.jpg" alt="Chania" width="460" height="345">
+            <div class="carousel-caption">
+              <h3></h3>
+              <p></p>
+            </div>
+          </div>
+        
+          <div class="item">
+            <img class="fixed-height" src="../../images/3.jpg" alt="Flower" width="460" height="345">
+            <div class="carousel-caption">
+              <h3></h3>
+              <p></p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img class="fixed-height" src="../../images/4.jpg" alt="Flower" width="460" height="345">
+            <div class="carousel-caption">
+              <h3></h3>
+              <p></p>
+            </div>
+          </div>
+      
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+  </footer>
+</body>
+</html>
