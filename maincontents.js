@@ -72,6 +72,7 @@ function FC_ContentsCall(strContentsName, strLanguage)
     {
         case "Welcome":
             PlaySpeech("Hi, I’m Tracey, welcome to the Novartis booth. Please click around on my screen and then speak to my smart human friends in the booth.");
+            break;
         case "Home":
            location.href = "../../maincontents.htm";
             break;
