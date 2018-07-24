@@ -280,20 +280,20 @@ function OnJoystickControlled(strPara){
     if(btn_info[0] == '1'){
             window.external.ChangeLanguage("en-us");
             SetVolume(1);
-            window.external.PlaySpeech("Hi, my name is tracey, nice to meet you. Thank you for having me here at Novartis.");//I'm here to assist you, press any button on my screen to begin");
+            window.external.PlaySpeech("My name is Tracey, I'm very impressed with Novartis and I'm honored and thrilled to be working with you.");//I'm here to assist you, press any button on my screen to begin");
           
     }
 
     if(btn_info[1] == '1'){
         window.external.ChangeLanguage("en-us");
         SetVolume(1);
-        window.external.PlaySpeech("Hi!");
+        window.external.PlaySpeech("I can't answer that question now, with more programming I'll be able too answer more questions.");
         
     }
     if(btn_info[2] == '1'){
         window.external.ChangeLanguage("en-us");
             SetVolume(1);
-            window.external.PlaySpeech("Nice to meet you");
+            window.external.PlaySpeech("Bye, bye, have a great day!");
     }
     if(btn_info[3] == '1'){
        window.external.ChangeLanguage("en-us");
